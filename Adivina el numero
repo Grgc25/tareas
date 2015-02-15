@@ -1,0 +1,23 @@
+print("Adivina el numero !!!")
+
+from random import randint
+
+n_a = randint(1,100) 
+intentos=0
+n_e=0
+while (n_e!=n_a):
+ intentos= intentos+1
+ n_e=int(input("Que numero crees que es?:  "))
+ 
+ if (n_e<n_a):
+  print("Nope, el numero es mas grande")
+  print("Una pista, el numero se acerca al",n_a-10,)
+ if (n_e>n_a):
+  print("nope, el numero es mas chico")
+  print("Una pista, el numero se acerca al",n_a+10,)
+  
+if (n_e==n_a):
+ print ("Adivinaste!, ese es el numero")
+ print("tuviste que intentar ",intentos-1, " veces")
+ 
+#Hecho por Guillermo Gomez Castellanos
