@@ -1,0 +1,18 @@
+print("Hola, Hoy vamos a hacer operaciones basicas")
+
+x= float(input("dame el primer número: ")) or int(input("dame el primer número: "))
+y= float(input("dame el segundo numero: ")) or int(input("dame el segundo numero: "))
+
+suma=x+y 
+resta=x-y 
+multiplicacion=x*y 
+resultado_divicion=x/y 
+mod_divicion=x%y
+
+print("sumados son:  ",suma,)
+print("restados son:  ",resta,)
+print("multiplicados son:  ",multiplicacion,)
+print("el resultado de la divicion es:  ",resultado_divicion,)
+print(" el residuo de la divicion es:  ",mod_divicion,)
+
+#Hecho por Guillero Gomez
