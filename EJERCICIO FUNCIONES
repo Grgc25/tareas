@@ -24,3 +24,4 @@ elif resp=="multiplicar":
  mult(num1,num2)
 else:
  print("wut???")
+ print("MIND = BLOWN!!!")
