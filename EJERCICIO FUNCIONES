@@ -1,0 +1,11 @@
+print("Quieres sumar, restar o multiplicar?: ")
+resp=input("-> ")
+if resp=="sumar":
+ def sum(num1,num2):
+  respuesta=num1+num2
+  print("el resultado es: ",respuesta,)
+  
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ sum(num1,num2)
+
