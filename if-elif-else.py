@@ -9,3 +9,5 @@ elif ans=="rim":
   print("enserio??")
 else:
   print("ANDROID MASTER RACE!")
+  
+  #Hecho por Guillermo Gomez
