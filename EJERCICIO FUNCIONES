@@ -8,4 +8,19 @@ if resp=="sumar":
  num1=int(input("Cual es el primer numero?: "))
  num2=int(input("cual es el segundo numero?: "))
  sum(num1,num2)
-
+elif resp=="restar":
+ def rest(num1,num2):
+  respuesta=num1-num2
+  print("El resultado es de: ",respuesta,)
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ rest(num1,num2)
+elif resp=="multiplicar":
+ def mult(num1,num2):
+  respuesta=num1*num2
+  print("El resultado es de: ",respuesta,)
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ mult(num1,num2)
+else:
+ print("wut???")
