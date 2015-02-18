@@ -1,5 +1,6 @@
-print("Quieres sumar, restar o multiplicar?: ")
+print("Teclea si quieres (sumar),(restar),(multiplicar),(dividir), u obtener el (residuo) de dos numeros. Tal vez quieras obtener (todo)" )
 resp=input("-> ")
+print("\n")
 if resp=="sumar":
  def sum(num1,num2):
   respuesta=num1+num2
@@ -22,6 +23,50 @@ elif resp=="multiplicar":
  num1=int(input("Cual es el primer numero?: "))
  num2=int(input("cual es el segundo numero?: "))
  mult(num1,num2)
+elif resp=="dividir":
+ def div(num1,num2):
+  respuesta=num1/num2
+  print("El resultado en enteros es de: ",respuesta,)
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ div(num1,num2)
+elif resp=="residuo":
+ def res(num1,num2):
+  respuesta=num1%num2
+  print("El resultado en enteros es de: ",respuesta,)
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ res(num1,num2)
+elif resp=="todo":
+ num1=int(input("Cual es el primer numero?: "))
+ num2=int(input("cual es el segundo numero?: "))
+ def sum(num1,num2):
+  respuesta=num1+num2
+  print("\n")
+  print("el resultado de la suma en enteros es: ",respuesta,)
+ sum(num1,num2)
+ def rest(num1,num2):
+  respuesta=num1-num2
+  print("\n")
+  print("El resultado de la resta en enteros es de: ",respuesta,)
+ rest(num1,num2)
+ def mult(num1,num2):
+  respuesta=num1*num2
+  print("\n")
+  print("El resultado de la multiplicacion de enteros es de: ",respuesta,)
+ mult(num1,num2)
+ def div(num1,num2):
+  respuesta=num1/num2
+  print("\n")
+  print("El resultado de la divicion en enteros es de: ",respuesta,)
+ div(num1,num2)
+ def res(num1,num2):
+  respuesta=num1%num2
+  print("\n")
+  print("El resultado residuo es de: ",respuesta,)
+ res(num1,num2)
 else:
  print("wut???")
  print("MIND = BLOWN!!!")
+ print("\n")
+ print("Tal vez escribiste mal tu solicitud, escribe la palabra justo como esta en el parentesis.")
