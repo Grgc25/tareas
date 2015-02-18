@@ -26,7 +26,7 @@ elif resp=="multiplicar":
 elif resp=="dividir":
  def div(num1,num2):
   respuesta=num1/num2
-  print("El resultado en enteros es de: ",respuesta,)
+  print("El resultado de: ",respuesta,)
  num1=int(input("Cual es el primer numero?: "))
  num2=int(input("cual es el segundo numero?: "))
  div(num1,num2)
@@ -58,7 +58,7 @@ elif resp=="todo":
  def div(num1,num2):
   respuesta=num1/num2
   print("\n")
-  print("El resultado de la divicion en enteros es de: ",respuesta,)
+  print("El resultado de la divicion de: ",respuesta,)
  div(num1,num2)
  def res(num1,num2):
   respuesta=num1%num2
