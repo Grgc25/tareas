@@ -1,5 +1,7 @@
+import statistics
+
 print("Te pedire 10 numeros para calcular varias operaciones")
-#import statistics #Con esto importamos la libreria de python para calculos de estadistica, que estan dentro de la libreria "math".
+
 
 lista=[] #Esto nos permite crear el espacio para la lista de cosas que necesitamos
 
