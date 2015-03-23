@@ -1,8 +1,6 @@
-import statistics
+import statistics #Con esto importamos la libreria de python para calculos de estadistica.
 
 print("Te pedire 10 numeros para calcular varias operaciones")
-
-
 lista=[] #Esto nos permite crear el espacio para la lista de cosas que necesitamos
 
 for i in range(10): #esta vez queremos 10 numeros. asi que, pondremos un contador 
@@ -13,9 +11,8 @@ for i in range(10): #esta vez queremos 10 numeros. asi que, pondremos un contado
 
 print("\n")
 suma= sum(lista)
-print("La suma de los numeros da un total de: ",suma,)
 promedio=(sum(lista)/10)
+desv=statistics.stdev(lista)
+print("La suma de los numeros da un total de: ",suma,)
+print("La desviacion estandard de los numeros es de: ",desv,)
 print("El promedio de los numeros es de: ",promedio,)
-
-
-#FALTA IMPORTAR MODULO PARA SACAR PROMEDIO Y DESVIACION ESTANDARD
