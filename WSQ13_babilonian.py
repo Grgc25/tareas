@@ -7,6 +7,6 @@ def raiz(n):
    c=c+1 #parte del contador
  return raiz
  
-n=float(input("De que numero quieres sacar su raiz cuadrada? -> "))
-respuesta=raiz(n)
-print("la raiz de ",n," es ",respuesta,)
+n=float(input("De que numero quieres sacar su raiz cuadrada? -> "))# aqui pedimos el numero
+respuesta=raiz(n) #asignamos una variable a la funcion
+print("la raiz de ",n," es ",respuesta,)#imprimimos la respuesta
